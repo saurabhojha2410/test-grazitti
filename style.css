@@ -354,17 +354,10 @@ padding-left: 5rem;
 
 
 @media (max-width: 600px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
+  
 
   .hero-image {
     width: 100px;
-  }
-
-  .skills {
-    grid-template-columns: 1fr;
   }
 
   .project-grid {
@@ -433,14 +426,7 @@ padding-left: 5rem;
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .skills {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  
   .footer-section {
     grid-template-columns: 1fr;
     padding: 3.5rem 3.5rem;
@@ -488,14 +474,3 @@ padding-left: 5rem;
 
 }
 
-@media (min-width: 901px) {
-  .hero {
-    flex-direction: row;
-  }
-
-  .skills {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-
-}
