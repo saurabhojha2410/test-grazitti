@@ -127,6 +127,7 @@ body {
   color: var(--white);
   overflow: hidden;
 padding-left: 5rem;
+column-gap: 4rem;
 }
 
 .experience-box {
